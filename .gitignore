@@ -1,0 +1,58 @@
+# .NET Core
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.log
+*.user
+*.vscode/
+*.vs/
+*.suo
+*.cache/
+*.tmp
+
+# .NET Core Dependency Directories
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.sln.idea/workspace.xml
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages
+*.nuget.props
+*.paket.*
+*.paket/
+
+# User-specific files
+*.rsuser
+*.bak

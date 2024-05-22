@@ -1,0 +1,10 @@
+create source (one time):
+dotnet nuget add source $(pwd)/SDKPackages --name SDKPackages
+
+list current sources:
+dotnet nuget list source
+
+dotnet pack hcc2sdkcs.csproj -c Debug
+dotnet pack hcc2sdkcs.csproj -c Release
+
+dotnet nuget push bin/Debug/hcc2sdkcs.0.1.2.nupkg -s SDKPackages
